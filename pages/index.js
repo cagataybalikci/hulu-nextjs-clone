@@ -9,9 +9,9 @@ export default function Home({ results }) {
   return (
     <div>
       <Head>
-        <title>Hulu</title>
+        <title>Hulu Clone - Next.js</title>
         <meta name="description" content="Hulu Clone with Next.js" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Hulu.ico" />
       </Head>
       <Header />
       <Navbar />

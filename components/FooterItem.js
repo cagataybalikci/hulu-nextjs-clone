@@ -24,6 +24,7 @@ function FooterItem({ title, items }) {
       >
         {items.map((item) => (
           <p
+            key={item}
             className="mb-1 text-gray-500 cursor-pointer hover:text-white hover:scale-105"
             href="#"
           >

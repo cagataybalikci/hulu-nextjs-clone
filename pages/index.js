@@ -5,7 +5,6 @@ import Results from "../components/Results";
 import requests from "../utils/requests";
 
 export default function Home({ results }) {
-  console.log(results);
   return (
     <div>
       <Head>
@@ -13,7 +12,7 @@ export default function Home({ results }) {
         <meta name="description" content="Hulu Clone with Next.js" />
         <link rel="icon" href="/Hulu.ico" />
       </Head>
-      <Header />
+
       <Navbar />
       <Results results={results} />
     </div>
